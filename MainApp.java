@@ -1,4 +1,5 @@
 import oop.Encapsulation;
+import oop.HewanAsInheritance;
 
 public class MainApp {
     public static void main(String[] args) {
@@ -12,5 +13,8 @@ public class MainApp {
 
         System.out.println("Name: " + encapsulation.getName());
         System.out.println("Age: " + encapsulation.getAge());
+
+        HewanAsInheritance hewan = new HewanAsInheritance("Kucing");
+        hewan.makan();
     }
 }
