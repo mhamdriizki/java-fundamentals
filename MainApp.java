@@ -1,5 +1,6 @@
 import oop.Encapsulation;
 import oop.HewanAsInheritance;
+import oop.HewanAsPolymorphism;
 
 public class MainApp {
     public static void main(String[] args) {
@@ -15,6 +16,8 @@ public class MainApp {
         System.out.println("Age: " + encapsulation.getAge());
 
         HewanAsInheritance hewan = new HewanAsInheritance("Kucing");
+        HewanAsPolymorphism hewanPolymorphism = new HewanAsPolymorphism("Anjing");
         hewan.makan();
+        hewanPolymorphism.makan();
     }
 }
